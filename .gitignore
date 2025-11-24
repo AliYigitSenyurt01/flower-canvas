@@ -1,0 +1,67 @@
+# -----------------
+# Python derleme çıktı dosyaları
+# -----------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# -----------------
+# Sanal ortamlar
+# -----------------
+venv/
+.env/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# -----------------
+# PyCharm / IntelliJ ayarları
+# -----------------
+.idea/
+*.iml
+
+# -----------------
+# Çeşitli cache ve log dosyaları
+# -----------------
+*.log
+*.tmp
+*.temp
+.DS_Store
+
+# -----------------
+# Test / Coverage dosyaları
+# -----------------
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+pytest_cache/
+coverage.xml
+*.cover
+*.py,cover
+
+# -----------------
+# Paketleme / dağıtım çıktıları
+# -----------------
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# -----------------
+# Jupyter defterleri için
+# -----------------
+.ipynb_checkpoints/
+
+# -----------------
+# mypy, pyright, vs.
+# -----------------
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyrightcache/
